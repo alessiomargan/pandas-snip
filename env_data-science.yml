@@ -1,0 +1,21 @@
+name: data-science
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas=1.3.3
+  - jupyter
+  - line_profiler
+  - memory_profiler
+  - netcdf4
+  - numexpr
+  - pandas-datareader
+  - pipdeptree
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - seaborn
+  - wheel
+#  - pip
+#  - pip:
+#    - -r requirements.txt

@@ -1,0 +1,12 @@
+jupyter
+line_profiler
+memory_profiler
+netcdf4
+numexpr
+pandas-datareader
+pipdeptree
+scipy
+scikit-learn
+scikit-image
+seaborn
+wheel
