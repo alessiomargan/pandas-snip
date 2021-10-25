@@ -6,6 +6,10 @@ import math
 import pandas as pd
 import numpy as np
 
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+
 print('pandas version ',pd.__version__)
 
 def gitlab_raw_data(prj_id,prj_file,branch):
@@ -46,4 +50,14 @@ def write_bin(np_mat, filename):
     print(f"m shape {orig_shape} {np_back.shape}")
     print(f"m bytes {len(np_back.tobytes())}")
 
-    return np_back  
+    return np_back
+
+
+
+
+#dfCM = pd.DataFrame(data=npCM.T.astype(float))
+#dfCM.to_csv('cal_mat.txt', sep=',', header=False, float_format='%.6f', index=False)
+#npCM.T.tofile('cal_mat.bin',format='%f')
+#np.fromfile('cal_mat.bin')
+#np.identity(6, dtype='float32').tofile('ones.bin',format='%f')
+#np.fromfile('ones.bin', dtype='float32')
