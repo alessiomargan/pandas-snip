@@ -2,8 +2,8 @@ name: data-science
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - pandas=1.3.3
+  - python=3.12
+  - pandas
   - jupyter
   - line_profiler
   - memory_profiler
@@ -15,6 +15,7 @@ dependencies:
   - scikit-learn
   - scikit-image
   - seaborn
+  - matplotlib
   - wheel
 #  - pip
 #  - pip:
